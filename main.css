@@ -1,0 +1,83 @@
+*{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ header{
+ 	position: sticky;
+ 	top: 0;
+ 	background-color: #abababcc;
+ 	padding-left: 5px;
+ 	border-radius: 0 0 10px 10px;
+ 	border-bottom: solid 5px #777;
+ }
+ header nav{
+ 	background-color: #999;
+ 	display: inline-block;
+ 	float: right;
+ 	padding: 10px;
+ 	height: 150px;
+ 	margin: 15px;
+ 	border-radius: 5px;
+ 	width: 27%;
+ }
+ nav button{
+ 	padding: 6px;
+ 	margin: 2px;
+ 	border: solid 2px #777;
+ 	background-color: #a0a0a0;
+ 	font-weight: bold;
+ 	font-size: 12px;
+ 	border-radius: 5px;
+ 	transition: transform 500ms ease-in;
+ }
+ nav button:hover{
+ 	background-color: #afafaf;
+ 	transform: translateX(15px);
+ }
+ nav button:active{
+ 	background-color: #8f8f8f;
+ 	color: #ddd;
+ }
+ img{
+ 	height: 200px;
+ 	display: inline;
+ }
+ .grid-container{
+ 	display: grid;
+ 	grid-template-columns: 70% 25%;
+ }
+ main{
+ 	margin: 10px;
+ }
+ main article{
+ 	margin: 5px;
+ 	background-color: #bbb;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ }
+ main article:nth-child(odd){
+ 	background-color: #aaa;
+ }
+ aside{
+ 	position: fixed;
+ 	width: 25%;
+ 	right: 10px;
+ 	margin: 15px;
+ 	background-color: #bababa;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ }
+ footer{
+ 	height: min(250px);
+ 	background-color: #666;
+ }
+ .icon{
+ 	margin: 10px;
+ 	font-size: 50px;
+ }
+ .instagram{
+
+ }
+ .github{
+
+ } 
